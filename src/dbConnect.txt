@@ -1,0 +1,1 @@
+C:\users\arora\mongodb\bin\mongod.exe --dbpath=/Users/arora/mongodb-data
