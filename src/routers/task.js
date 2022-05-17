@@ -2,7 +2,7 @@ const express = require('express')
 const { updateDocuments } = require('mongodb/lib/operations/collection_ops')
 const auth = require('../middleware/auth')
 const router = new express.Router()
-const Task = require('../models/Task')
+const Task = require('../models/task')
 
 router.post('/tasks',auth, async (req, res) => {
     const task = new Task({
